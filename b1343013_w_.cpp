@@ -1,6 +1,3 @@
-//B1343013 馮聖元
-// EX?
-// DATA
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
