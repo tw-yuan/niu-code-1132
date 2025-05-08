@@ -1,2 +1,9 @@
 .vscode
 *.out
+*.a
+*.o
+*.so
+*.exe
+*.dll
+*.dSYM
+*.dSYM.zip
