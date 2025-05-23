@@ -2,9 +2,9 @@
 using namespace std;
 
 class CBox {
-public:
+private:
     int length, width, height;
-
+public:
     CBox() : length(0), width(0), height(0) {}
 
 
