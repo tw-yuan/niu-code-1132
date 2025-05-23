@@ -5,11 +5,8 @@ class CBox {
 public:
     int length, width, height;
 
-    // 無參數建構子
     CBox() : length(0), width(0), height(0) {}
 
-    // 帶參數建構子
-    CBox(int l, int w, int h) : length(l), width(w), height(h) {}
 
     void set(int l, int w, int h) {
         length = l;
@@ -17,12 +14,10 @@ public:
         height = h;
     }
 
-    // 計算體積
     int volume() {
         return length * width * height;
     }
 
-    // 計算表面積
     int surfaceArea() {
         return 2 * (length * width + length * height + width * height);
     }
